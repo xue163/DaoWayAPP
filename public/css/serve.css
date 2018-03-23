@@ -1,0 +1,96 @@
+.content {
+  width: 100%;
+  margin: 70px 100px 0;
+  overflow: hidden;
+}
+.content h2 {
+  line-height: 85px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.content .service-center {
+  width: 1200px;
+  margin: 0 auto;
+}
+.content .service-center .centerleft {
+  width: 970px;
+  float: left;
+  margin-bottom: 50px;
+}
+.content .service-center .centerleft .tabdiv li {
+  box-sizing: border-box;
+  width: 232px;
+  height: 280px;
+  border: 1px solid #eaeaea;
+  padding: 10px;
+  margin: 0 10px 10px 0;
+  cursor: pointer;
+  float: left;
+  text-align: center;
+}
+.content .service-center .centerleft .tabdiv li .tab-img {
+  width: 210px;
+  height: 210px;
+}
+.content .service-center .centerleft .tabdiv li .p1 {
+  height: 26px;
+  line-height: 26px;
+}
+.content .service-center .centerleft .tabdiv li .p1 img {
+  width: 18px;
+  height: 17px;
+}
+.content .service-center .centerleft .tabdiv li .p1 b {
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.content .service-center .centerleft .tabdiv li .pp {
+  font-size: 12px;
+  color: #929292;
+  height: 26px;
+  line-height: 26px;
+}
+.content .service-center .centerleft .fenye {
+  width: 100%;
+  height: 152px;
+  line-height: 152px;
+  text-align: center;
+  overflow: hidden;
+}
+.content .service-center .centerleft .fenye span {
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #e5e5e5;
+  margin: 50px 5px;
+  color: #b1b1b1;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+.content .service-center .centerleft .fenye span img {
+  width: 12px;
+  height: 7px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+.content .service-center .centerright {
+  float: right;
+  width: 230px;
+}
+.content .service-center .centerright img {
+  cursor: pointer;
+}
+.content .service-center .centerright .erweima {
+  width: 230px;
+  height: 290px;
+  background-image: url("../images/serve/erweima-bg.jpg");
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+.content .service-center .centerright .erweima img {
+  margin: 50px 0 0 50px;
+  width: 130px;
+  height: auto;
+}

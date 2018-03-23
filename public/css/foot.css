@@ -1,0 +1,67 @@
+footer {
+  width: 100%;
+  padding-bottom: 50px;
+}
+footer .baozhang-wrap {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+footer .baozhang-wrap .baozhang {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: "微软雅黑";
+  width: 100%;
+}
+footer .baozhang-wrap .baozhang .servers {
+  color: #fb474f;
+  font-weight: bold;
+}
+footer .baozhang-wrap p {
+  font-size: 22px;
+  color: #3d3838;
+  margin: 15px 0;
+}
+footer .baozhang-wrap .anquan span {
+  color: #1d1515;
+  font-size: 18px;
+  margin-right: 28px;
+}
+footer .baozhang-wrap .anquan span img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+footer .city {
+  margin: 20px auto 20px;
+  padding-left: 21px;
+  overflow: hidden;
+}
+footer .city .remen {
+  font-size: 18px;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  float: left;
+}
+footer .city .city_list {
+  float: left;
+  text-align: center;
+}
+footer .city .city_list .row {
+  margin-bottom: 10px;
+}
+footer .city .city_list .row a {
+  font-size: 16px;
+  color: #898989;
+  margin: 0 30px;
+  text-align: center;
+  font-weight: 200;
+  cursor: pointer;
+  font-family: "微软雅黑";
+}
+footer .city .city_list .row3 {
+  margin-left: 30px;
+}
+footer .renzheng {
+  margin: 0 auto;
+  color: #898989;
+}

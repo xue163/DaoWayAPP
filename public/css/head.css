@@ -1,0 +1,63 @@
+header {
+  width: 100%;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap;
+}
+header .head-conent {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+}
+header .head-conent .address a span {
+  font-weight: bold;
+  color: #121212;
+}
+header .head-conent .nav-brand {
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+header .head-conent .nav-brand li {
+  float: left;
+  margin-right: 20px;
+}
+header .head-conent .nav-brand li > a {
+  color: #121212;
+  font-weight: bold;
+}
+header .head-conent .nav-brand li .shanglu {
+  color: #fff;
+  background: #e94840;
+  padding: 5px;
+  border-radius: 7px;
+}
+header .head-conent .nav-brand li a:hover {
+  color: #e94840;
+  background-color: #fff;
+}
+header .head-conent .nav-brand .on a {
+  color: red;
+}
+header .head-conent .scroll {
+  animation: scroll 1s ease ;
+}
+@keyframes scroll {
+  from {
+    transform: translateY(-70px) rotateY(90deg);
+  }
+  to {
+    transform: translateY(0px) rotateY(0deg);
+  }
+}

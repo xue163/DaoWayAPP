@@ -1,0 +1,199 @@
+.pro-wrap {
+  margin-top: 70px;
+  position: relative;
+}
+.pro-wrap .swiper-container .swiper-slide {
+  height: 420px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.pro-wrap .swiper-container .s1 {
+  background-image: url("../images/first/banner1.jpg");
+}
+.pro-wrap .swiper-container .s2 {
+  background-image: url("../images/first/banner2.jpg");
+}
+.pro-wrap .swiper-container .s3 {
+  background-image: url("../images/first/banner3.jpg");
+}
+.pro-wrap .swiper-container .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.pro-wrap .swiper-container .swiper-pagination-active {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.pro-wrap .banner-nav {
+  position: absolute;
+  left: 70px;
+  top: 0;
+  width: 180px;
+  z-index: 50;
+}
+.pro-wrap .banner-nav ul {
+  background: #757881;
+  width: 180px;
+  height: 420px;
+}
+.pro-wrap .banner-nav ul .nav-name {
+  height: 42px;
+  line-height: 42px;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  padding-left: 45px;
+}
+.pro-wrap .banner-nav ul .nav-name a span {
+  color: #fff;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.pro-wrap .banner-nav ul .nav-name a .right {
+  display: block;
+  position: relative;
+  left: 78px;
+  top: -22px;
+}
+.pro-wrap .banner-nav ul .nav-name a .icon1 {
+  display: none;
+  position: relative;
+  left: 129px;
+  top: -23px;
+  width: 6px;
+  height: 11px;
+}
+.pro-wrap .banner-nav ul .nav-name ul {
+  position: absolute;
+  left: 180px;
+  top: 0 ;
+  display: none;
+  background: rgba(255, 255, 255, 0.9);
+  width: 160px;
+}
+.pro-wrap .banner-nav ul .nav-name ul li {
+  height: 42px;
+  line-height: 42px;
+  font-size: 16px;
+  cursor: pointer;
+  padding-left: 45px;
+  font-weight: bold;
+}
+.pro-wrap .banner-nav ul .nav-name ul li a {
+  font-weight: bold;
+  color: #121212;
+}
+.pro-wrap .banner-nav ul .nav-name:hover {
+  background: #60646d;
+}
+.content .serve-body {
+  background: #fff;
+  width: 100%;
+  padding: 35px 0;
+  text-align: center;
+}
+.content .serve-body .navigation .serviceIndex {
+  font-weight: bold;
+  font-size: 28px;
+  font-family: "Microsoft YaHei";
+  color: #3d3838;
+}
+.content .serve-body .navigation .serve-type {
+  font-weight: 600;
+  margin-top: 15px;
+  font-size: 22px;
+}
+.content .serve-body .navigation .serve-type a {
+  color: #3d3838;
+  margin: 5px;
+  font-weight: 200;
+}
+.content .serve-body .navigation .serve-type a:hover {
+  color: red;
+}
+.content .serve-body .navigation .serve-type .more {
+  float: right;
+  color: #898989;
+  font-size: 18px;
+}
+.content .serve-body .row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-left: 255px;
+}
+.content .serve-body .row .shopList {
+  font-size: 16px;
+  padding: 10px;
+  width: 230px;
+  margin: 0 5px;
+  border: 1px solid #eaeaea;
+  cursor: pointer;
+  height: 345px;
+}
+.content .serve-body .row .shopList img {
+  vertical-align: middle;
+  width: 100%;
+}
+.content .serve-body .row .shopList .serviceName {
+  font-size: 16px;
+  padding: 10px 0;
+  color: #000;
+  font-weight: 800;
+}
+.content .serve-body .row .shopList .description {
+  color: #929292;
+  padding: 5px 0;
+  font-size: 13px;
+  line-height: 18px;
+  height: 40px;
+}
+.content .serve-body .row .shopList .price {
+  font-size: 14px;
+  color: #fb474f;
+  font-weight: 600;
+  padding: 5px 5px;
+}
+.content .serve-body .row .shopList .price .price2 {
+  font-size: 20px;
+}
+.content .serve-body .row .shopList .price .btn {
+  float: right;
+  width: 76px;
+  display: inline-block;
+  line-height: 24px;
+  background: #fb474f;
+  color: #fff;
+  border-radius: 5px;
+}
+.content .serve-body .row .shopList:hover {
+  box-shadow: 5px 5px 15px #ccc;
+}
+.partner {
+  margin-top: 50px;
+  padding-left: 21px;
+}
+.partner p {
+  font-size: 18px;
+  color: #1d1515;
+  text-align: left;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.partner .partner_list .rows {
+  display: flex;
+  justify-content: space-around;
+}
+.partner .partner_list .rows li {
+  cursor: pointer;
+  width: 100px;
+  line-height: 60px;
+}
+.partner .partner_list .rows li img {
+  width: 100px;
+  height: auto;
+}

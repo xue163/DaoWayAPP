@@ -1,0 +1,203 @@
+.fenlei {
+  width: 1200px;
+  margin: 70px auto 0px;
+  overflow: hidden;
+  margin-left: 175px;
+}
+.fenlei p {
+  font-size: 18px;
+  line-height: 85px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+.fenlei .fenlei-left {
+  width: 960px;
+  overflow: hidden;
+  float: left;
+}
+.fenlei .fenlei-left .curauto {
+  overflow: hidden;
+  border: 1px solid #e5e5e5;
+}
+.fenlei .fenlei-left .curauto img {
+  float: left;
+  border: 1px solid #e5e5e5;
+  margin: 30px;
+  margin-bottom: 0;
+  width: 160px;
+  vertical-align: middle;
+}
+.fenlei .fenlei-left .curauto .spm {
+  float: left;
+  position: relative;
+  top: 25px;
+}
+.fenlei .fenlei-left .curauto .spm span {
+  font-size: 18px;
+  color: #1d1515;
+  display: block;
+  height: 42px;
+  line-height: 42px;
+}
+.fenlei .fenlei-left .curauto .spm .price {
+  height: 42px;
+  line-height: 42px;
+}
+.fenlei .fenlei-left .curauto .spm .price b {
+  font-style: normal;
+  font-size: 20px;
+  color: #fc545e;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.fenlei .fenlei-left .curauto .spm .price b i {
+  font-size: 14px;
+  font-style: normal;
+}
+.fenlei .fenlei-left .curauto .spm .price .oldprice {
+  font-size: 14px;
+  color: #898989;
+  margin-left: 40px;
+  font-style: normal;
+}
+.fenlei .fenlei-left .curauto .spm .price .oldprice i {
+  text-decoration: line-through;
+  font-size: 14px;
+  font-style: normal;
+}
+.fenlei .fenlei-left .curauto .spm .yishou {
+  height: 42px;
+  line-height: 42px;
+}
+.fenlei .fenlei-left .curauto .spm .yishou em {
+  font-style: normal;
+  color: #fb474f;
+  margin-left: 10px;
+}
+.fenlei .fenlei-left .curauto .spy {
+  float: right;
+  margin: 20px 60px 0px 0px;
+}
+.fenlei .fenlei-left .curauto .spy img {
+  width: 115px;
+}
+.fenlei .fenlei-left .curauto .spy div {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+.fenlei .fenlei-left .curauto .spy b {
+  color: #fb474f;
+  display: block;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 30px;
+}
+.fenlei .fenlei-left .cdown {
+  margin-top: 10px;
+  padding: 30px 20px;
+  border: 1px solid #e5e5e5;
+}
+.fenlei .fenlei-left .cdown b {
+  margin-top: 10px;
+  width: 66px;
+  border-bottom: 3px solid #fb474f;
+  padding: 5px;
+  font-weight: 700;
+  display: block;
+}
+.fenlei .fenlei-left .cdown pre {
+  line-height: 24px;
+  font-size: 14px;
+  margin: 15px 0 15px;
+}
+.fenlei .fenlei-left .cdown .city {
+  line-height: 24px;
+  font-size: 14px;
+  margin: 15px 0 15px;
+  font-weight: 400;
+}
+.fenlei .fenlei-left .cdown .yuyue {
+  line-height: 24px;
+  font-size: 14px;
+  margin: 15px 0 5px;
+  font-weight: 400;
+}
+.fenlei .fenlei-left .cdown .yuyue i {
+  font-style: normal;
+  margin-left: 20px;
+}
+.fenlei .fenlei-left .cdown .yuyue em {
+  color: #fb474f;
+  font-style: normal;
+}
+.fenlei .fenlei-left .cdown .xuzhi {
+  background: #fffcf1;
+}
+.fenlei .fenlei-left .cdown .jianjie {
+  line-height: 24px;
+  font-size: 14px;
+  white-space: pre-wrap;
+  margin: 0 0px 5px;
+  font-weight: 400;
+}
+.fenlei .fenlei-right {
+  width: 230px;
+  position: relative;
+  margin-left: 10px;
+  float: right;
+}
+.fenlei .fenlei-right .right-top {
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  cursor: pointer;
+}
+.fenlei .fenlei-right .right-top h3 {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10px;
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #e5e5e5;
+  font-weight: 600;
+  margin: 0px;
+}
+.fenlei .fenlei-right .right-top .bg-img {
+  width: 80px;
+  margin: 40px 50px;
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+.fenlei .fenlei-right .right-top .yun {
+  font-size: 16px;
+  margin: 0 16px;
+}
+.fenlei .fenlei-right .right-top .pingjia {
+  text-align: left;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 10px;
+}
+.fenlei .fenlei-right .right-top .pingjia i {
+  float: right;
+  color: #fb474f;
+  font-style: normal;
+}
+.fenlei .fenlei-right .right-bottom {
+  width: 230px;
+  height: 290px;
+  background-image: url("../images/erweima2.jpg");
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 230px;
+}
+.fenlei .fenlei-right .right-bottom img {
+  width: 130px;
+  margin: 40px 50px;
+  vertical-align: middle;
+}

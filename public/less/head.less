@@ -1,0 +1,73 @@
+header{
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap;
+    .head-conent{
+       width: 80%;
+       margin: 0 auto;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       white-space: nowrap;
+
+       .head-logo{
+        }
+       .address{
+         a{
+           span{
+             font-weight: bold;
+             color:#121212;
+           }
+         }
+       }
+       .nav-brand{
+         display: flex;
+         justify-content: space-between;
+         white-space: nowrap;
+         li{
+           float: left;
+           margin-right: 20px;
+           >a{
+             color:#121212;
+             font-weight: bold;
+           }
+           .shanglu{
+             color:#fff;
+             background: #e94840;
+             padding:5px;
+             border-radius: 7px;
+           }
+           a:hover{
+             color: #e94840;
+             background-color: #fff;
+           }
+         }
+         .on{
+           a{
+             color: red;
+           }
+         }
+       }
+  }
+    .head-conent .scroll{
+      animation:scroll 1s ease ;
+    }
+    @keyframes scroll{
+    from{
+      transform: translateY(-70px) rotateY(90deg);
+    }
+    to{
+      transform: translateY(0px) rotateY(0deg);
+    }
+}
+  }
+

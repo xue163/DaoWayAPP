@@ -1,0 +1,305 @@
+.htit {
+  margin: 80px auto 0;
+}
+.htit .htit-center {
+  height: 140px;
+  line-height: 140px;
+  width: 1200px;
+  margin: 0 auto;
+}
+.htit .htit-center .htit-left {
+  float: left;
+  margin: 10px 0 0 20px;
+  height: 120px;
+}
+.htit .htit-center .htit-left b {
+  font-size: 36px;
+  font-weight: 700;
+}
+.htit .htit-center .htit-left span {
+  margin-left: 10px;
+  color: #929292;
+}
+.htit .htit-center .htit-left em {
+  color: #121212;
+  font-style: normal;
+}
+.htit .htit-center .htit-left .em2 {
+  color: #e84b47;
+}
+.htit .htit-center .htit-right {
+  float: right;
+  display: inline-block;
+}
+.htit .htit-center .htit-right div {
+  width: 100px;
+  line-height: 22px;
+  margin-top: 52px ;
+  text-align: center;
+  display: inline-block;
+}
+.htit .htit-center .htit-right div i {
+  display: block;
+  color: #e84b47;
+  font-style: normal;
+}
+.htit .htit-center .htit-right div em {
+  font-style: normal;
+  position: relative;
+  bottom: 12px;
+  left: 20px;
+  color: #e5e5e5;
+}
+.nav {
+  width: 100%;
+  background: #323434;
+  height: 40px;
+  line-height: 40px;
+}
+.nav .navlist {
+  width: 1200px;
+  margin: 0 auto;
+}
+.nav .navlist span {
+  width: 140px;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+}
+.fuwucenter {
+  margin: 20px auto;
+  margin-left: 135px;
+  width: 1200px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.fuwucenter .fuwuleft {
+  width: 960px;
+  margin: 0 auto;
+  background: #fff;
+  float: left;
+  box-sizing: border-box;
+}
+.fuwucenter .fuwuleft h3 {
+  width: 95%;
+  border-bottom: 1px solid #e5e5e5;
+  margin-left: 3%;
+  height: 60px;
+  line-height: 60px;
+}
+.fuwucenter .fuwuleft h3 span {
+  border-bottom: 4px solid #fb474f;
+  color: #121212;
+  font-size: 16px;
+  padding-bottom: 16px;
+}
+.fuwucenter .fuwuleft .boxtab .fuwuimg {
+  height: 200px;
+  border-bottom: 1px solid #e5e5e5;
+  cursor: pointer;
+}
+.fuwucenter .fuwuleft .boxtab .fuwuimg img {
+  border: 1px solid #e5e5e5;
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 25px;
+}
+.fuwucenter .fuwuleft .boxtab .fuwuimg .spm {
+  width: 64%;
+  float: left;
+  position: relative;
+  top: 25px;
+  font-style: normal;
+}
+.fuwucenter .fuwuleft .boxtab .fuwuimg .spm i {
+  height: 42px;
+  line-height: 42px;
+  font-style: normal;
+  display: block;
+}
+.fuwucenter .fuwuleft .boxtab .fuwuimg .spm .pri {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #fc545e;
+  font-weight: 700;
+  display: inline-block;
+}
+.fuwucenter .fuwuleft .boxtab .fuwuimg .spm .pri em {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
+.fuwucenter .fuwuleft .boxtab .fuwuimg .spm b {
+  display: inline-block;
+  margin-left: 20px;
+  color: #898989;
+  font-size: 14px;
+}
+.fuwucenter .fuwuleft .boxtab .fuwuimg .spm b em {
+  text-decoration: line-through;
+  font-style: normal;
+}
+.fuwucenter .fuwuleft .boxtab .fuwuimg .spm i:nth-child(1) {
+  font-size: 18px;
+  color: #1d1515;
+}
+.fuwucenter .fuwuleft .boxtab .fuwuimg .spy {
+  margin: 170px 60px 0 0;
+  color: #929292;
+  float: right;
+}
+.fuwucenter .fuwuleft .boxtab .info {
+  position: relative;
+  height: 60px;
+}
+.fuwucenter .fuwuleft .boxtab .info .hh3 {
+  position: absolute;
+  top: 27px;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  padding-bottom: 16px;
+  cursor: pointer;
+  border-bottom: 1px solid #e5e5e5;
+  margin-left: 3%;
+}
+.fuwucenter .fuwuleft .boxtab .info .hh3 span {
+  border-bottom: 4px solid #fb474f;
+  padding-bottom: 16px;
+}
+.fuwucenter .fuwuleft .boxtab .company {
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 27px;
+}
+.fuwucenter .fuwuleft .boxtab .company img {
+  vertical-align: middle;
+}
+.fuwucenter .fuwuleft .boxtab .pp {
+  line-height: 28px;
+  margin: 10px 25px 25px;
+  font-size: 16px;
+}
+.fuwucenter .fuwuleft .boxtab .paihang {
+  width: 95%;
+  border-bottom: 1px solid #e5e5e5;
+  margin-left: 3%;
+  height: 60px;
+  line-height: 60px;
+}
+.fuwucenter .fuwuleft .boxtab .paihang .s1 {
+  border-bottom: 4px solid #fb474f;
+  cursor: pointer;
+  padding-bottom: 16px;
+}
+.fuwucenter .fuwuleft .boxtab .paihang .s2 {
+  border: 0;
+}
+.fuwucenter .fuwuleft .boxtab .comment-wrap .commentDiv .conmentss {
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0 3%;
+  padding-top: 20px;
+}
+.fuwucenter .fuwuleft .boxtab .comment-wrap .commentDiv .conmentss img {
+  border-radius: 6px;
+  vertical-align: top;
+  width: 40px;
+  height: 40px;
+}
+.fuwucenter .fuwuleft .boxtab .comment-wrap .commentDiv .conmentss ul {
+  margin-left: 20px;
+  display: inline-block;
+  width: 80%;
+}
+.fuwucenter .fuwuleft .boxtab .comment-wrap .commentDiv .conmentss ul li {
+  line-height: 28px;
+}
+.fuwucenter .fuwuleft .boxtab .comment-wrap .commentDiv .conmentss ul li .noColor {
+  width: 70px;
+}
+.fuwucenter .fuwuleft .boxtab .comment-wrap .commentDiv .conmentss ul li .noColor img {
+  width: 10px;
+  height: auto;
+  vertical-align: middle;
+}
+.fuwucenter .fuwuleft .boxtab .comment-wrap .commentDiv .conmentss ul li .noColor em {
+  font-style: normal;
+  margin-left: 10px;
+}
+.fuwucenter .fuwuleft .boxtab .comment-wrap .commentDiv .conmentss ul .commentdetail {
+  line-height: 26px;
+  font-size: 16px;
+}
+.fuwucenter .fuwuleft .boxtab .comment-wrap .commentDiv .conmentss ul .commentposition {
+  height: 40px;
+  color: #898989;
+}
+.fuwucenter .fuwuleft .boxtab .comment-wrap .commentDiv .conmentss ul .commentposition img {
+  width: 9px;
+  height: 11px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.fuwucenter .fuwuleft .boxtab .comment-wrap .fenye2 {
+  width: 100%;
+  height: 152px;
+  margin: 0 auto;
+  text-align: center;
+}
+.fuwucenter .fuwuleft .boxtab .comment-wrap .fenye2 a {
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #e5e5e5;
+}
+.fuwucenter .fuwuleft .boxtab .comment-wrap .fenye2 .pageup {
+  margin: 50px 5px;
+}
+.fuwucenter .fuwuleft .boxtab .comment-wrap .fenye2 .on {
+  color: #121212;
+}
+.fuwucenter .fuwuleft .boxtab .comment-wrap .fenye2 .showPage {
+  display: inline-block;
+  color: #333;
+}
+.fuwucenter .fuwuleft .boxtab .comment-wrap .fenye2 .showPage .num {
+  width: 32px;
+  color: #121212;
+}
+.fuwucenter .fuwuleft .boxtab .comment-wrap .fenye2 .showPage .acv {
+  background: #fe454a;
+  color: #fff;
+}
+.fuwucenter .comment-right {
+  float: left;
+  width: 230px;
+}
+.fuwucenter .comment-right .c1 {
+  vertical-align: middle;
+  background-image: url("../images/erweima1.jpg");
+  background-repeat: no-repeat;
+  width: 230px;
+  height: 290px;
+  padding-top: 50px;
+  text-align: center;
+}
+.fuwucenter .comment-right .c2 {
+  background-image: url("../images/erweima2.jpg");
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  width: 230px;
+  height: 290px;
+  text-align: center;
+  line-height: 340px;
+}
+.fuwucenter .comment-right .c2 img {
+  width: 130px;
+}
