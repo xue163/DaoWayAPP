@@ -1,17 +1,24 @@
 header{
+  background: #fff;
     width: 100%;
-    background: #fff;
+    min-width:1200px;
+
     position: fixed;
     top: 0;
     left:0;
     right: 0;
     z-index: 100;
+    white-space:nowrap;
     display: flex;
     justify-content: space-around;
     height: 70px;
     border-bottom: 1px solid #ddd;
-    white-space: nowrap;
+    transform-style:preserve-3d;
+  @media (max-width: 500px){
+    background:red;
+  }
     .head-conent{
+
        width: 80%;
        margin: 0 auto;
        display: flex;
@@ -58,16 +65,15 @@ header{
          }
        }
   }
-    .head-conent .scroll{
-      animation:scroll 1s ease ;
-    }
+
     @keyframes scroll{
     from{
-      transform: translateY(-70px) rotateY(90deg);
-    }
-    to{
-      transform: translateY(0px) rotateY(0deg);
+      transform: translateY(-70px);
+      transform-origin:center 0;
     }
 }
   }
 
+header.scroll{
+  animation: scroll .5s ;
+}

@@ -1041,9 +1041,18 @@ $(function () {
    }
    )
  })
+//  头部动画
   $('.head-list>.fuwushang').click(function () {
     $('.head-list>li').removeClass('on')
     $(this).addClass('on')
+  })
+  const heigh = $('header>.head-conent').height()
+  $(document).scroll(function () {
+    if($(this).scrollTop()===0){
+      $('header').removeClass('scroll')
+    }else if($(this).scrollTop()>heigh){
+      $('header').addClass('scroll')
+    }
   })
 
 })

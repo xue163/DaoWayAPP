@@ -193,7 +193,7 @@
 </footer>
 <script type="text/javascript">
   $(function () {
-    var page = 1
+    var page = 1;
     $.get('http://localhost:3000/getServiceItem',function (data) {
     $('.iteminfo').append(template('tem1',{data:data}))
 
@@ -217,8 +217,8 @@
        page = index+1
        $('.showPage>a').removeClass('acv')
        $(this).addClass('acv')
-      $.get('http://localhost:3000/getComments?page=' +page,function (data) {
-        console.log(data)
+      getPage(page)
+       $.get('http://localhost:3000/getComments?page=' +page,function (data) {
         let newdata = getStar(data)
 //        var  data = data.comments
         $('.commentDiv').html(template('tem3',{data:newdata}))
@@ -226,9 +226,12 @@
      })
          //点击上一页
      $('.fenye2>.pageup').click(function () {
-        page--
+       page--
+       getPage(page)
+
        var index = page-1
-        getPage(page)
+
+
         $('.showPage>a').removeClass('acv')
         $($('.showPage>a').get(index)).addClass('acv')
        $.get('http://localhost:3000/getComments?page=' +page,function (data) {
@@ -240,8 +243,11 @@
          //点击下一页
     $('.fenye2>.pagedown').click(function () {
       page++
-      var index =page-1
       getPage(page)
+
+      var index =page-1
+
+
       $('.showPage >a').removeClass('acv')
       $($('.showPage >a').get(index)).addClass('acv')
       $.get('http://localhost:3000/getComments?page=' +page,function (data) {
@@ -267,25 +273,18 @@
       })
     }
      //筛选第一页和最后一页
-    function getPage(page) {
-      if(page>=9){
+    function getPage(p) {
+      if(p>=9){
         $('.fenye2>.pageup').addClass('on')
         $('.fenye2>.pagedown').removeClass('on')
         page = 9
-      }else if(page<=1){
+      }else if(p<=1){
         $('.fenye2>.pageup').removeClass('on')
         $('.fenye2>.pagedown').addClass('on')
         page =1
       }
     }
-    const heigh = $('header>.head-conent').height()
-    $(document).scroll(function () {
-      if($(this).scrollTop()===0){
-        $('header>.head-conent').removeClass('scroll')
-      }else if($(this.scrollTop()>heigh)){
-        $('header>.head-conent').addClass('scroll')
-      }
-    })
+
   })
 </script>
 <!--公司简介-->
